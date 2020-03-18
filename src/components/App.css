@@ -1,0 +1,57 @@
+.app {
+  background-color: #efefef;
+  position: relative;
+  padding-top: 40px;
+}
+
+h1 {
+  font-size: 1.3em;
+  margin: 0px;
+}
+
+h4 {
+  font-size: 1.0em;
+  margin: 0px;
+}
+
+p {
+  font-size: 0.9em;
+  margin: 0px;
+}
+
+.app-title-container {
+  background-color: #efefef;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 30px;
+}
+
+.messages-container {
+  background-color: #efefef;
+  margin: 0px 5px 5px 5px;
+  padding: 10px;
+}
+.message {
+  background-color: #fefefe;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.add-button-container {
+  background-color: pink;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+.add-button {
+  border-radius: 50%;
+}
+
+.guest-book-container {
+  background-color: #efefef;
+  margin: 5px;
+  padding: 10px;
+  display: none;
+}

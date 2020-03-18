@@ -1,0 +1,42 @@
+
+.container {
+    padding: 10px 10px 0px 10px;
+    height: calc(100% - 210px); /* 123 */
+}
+
+.label {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    text-transform: lowercase;
+    font-size: 0.8em;
+    font-weight: 400;
+    font-style: italic;
+    display: block;
+    padding-bottom: 5px;
+}
+
+.textarea {
+    font-family: "Roboto","Helvetica Neue", Helvetica, sans-serif;
+    border: 0px;
+    width: calc(100% - 20px);
+    height: calc(100% - 32px);
+    outline: none;
+    padding: 5px 5px 0px 5px;
+    font-size: 0.8em;
+    line-height: 120%;
+}
+
+.normal {
+    color: #455a64;
+}
+
+.error {
+    color: #f00;
+}
+
+.normalText {
+    border: 1px solid #b4c3cb;
+}
+
+.errorText {
+    border: 1px solid #f00;
+}

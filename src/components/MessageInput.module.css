@@ -1,0 +1,61 @@
+/* MessageInput */
+
+.container {
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+}
+
+.visible {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+.form {
+    background-color: #fff;
+    position: absolute;
+    width: 80%;
+    height: 60%;
+    min-height: 320px;
+    left: calc(10%);
+    top: calc(15%);
+    border-radius: 6px;
+    overflow: hidden;
+}
+.header h4{
+    background-color: #5e7a87;
+    padding: 5px 0px 5px 10px;
+    text-shadow: 0px 0px 1px #2a363c;
+    font-size: 1.0em;
+    font-weight: 600;
+    color: #fff;
+    user-select: none;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+label {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    text-transform: lowercase;
+    font-size: 0.8em;
+    font-weight: 400;
+    font-style: italic;
+    display: block;
+    padding-bottom: 5px;
+}
+
+.buttons {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: calc(100% - 20px);
+    height: 30px;
+    padding: 10px 10px;
+}

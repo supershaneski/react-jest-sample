@@ -1,0 +1,26 @@
+.button {
+    background-color: #5e7a87;
+    border: 0px;
+    outline: none;
+    height: 30px;
+    padding: 0px 10px 0px;
+    margin: 0px 2px;
+    cursor: pointer;
+    float: right;
+    font-family: "Roboto","Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.normal {
+    background-color: #5e7a87;
+}
+
+.hover {
+    background-color: #96acb6;
+}
+
+.active {
+    background-color: #b4c3cb;
+}

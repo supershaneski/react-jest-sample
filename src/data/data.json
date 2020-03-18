@@ -1,0 +1,19 @@
+{
+  "items": [
+    { "id": "e3ehl2nk0gbj", 
+      "author": "John & Mary", 
+      "title": "Congratulations!", 
+	  "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Senectus et netus et malesuada fames ac turpis. Dui id ornare arcu odio ut sem nulla pharetra. Ullamcorper dignissim cras tincidunt lobortis feugiat."
+	},
+	{ "id": "a6wk3uld1bma", 
+      "author": "Taro & Yuki", 
+      "title": "おめでとう！", 
+	  "text": "Urna porttitor rhoncus dolor purus non enim praesent. Tortor pretium viverra suspendisse potenti nullam ac tortor. Ac orci phasellus egestas tellus rutrum tellus pellentesque eu tincidunt."
+    },
+	{ "id": "a6wk3uld1bma", 
+      "author": "Mario & Luigi", 
+      "title": "", 
+	  "text": "Lorem ipsum dolor sit amet. Amet commodo nulla facilisi nullam. Sodales ut etiam sit amet nisl. Tellus mauris a diam maecenas."
+	}
+  ]
+}

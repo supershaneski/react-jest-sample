@@ -1,0 +1,41 @@
+
+.container {
+    /*background-color: cornflowerblue;*/
+    padding: 10px 10px 0px 10px;
+}
+
+.label {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    text-transform: lowercase;
+    font-size: 0.8em;
+    font-weight: 400;
+    font-style: italic;
+    display: block;
+    padding-bottom: 5px;
+}
+
+.input {
+    font-family: "Roboto","Helvetica Neue", Helvetica, sans-serif;
+    background-color: #fff;
+    width: calc(100% - 20px);
+    border: 0px;
+    outline: none;
+    padding: 3px 5px 2px 5px;
+    font-size: 0.8em;
+}
+
+.normal {
+    color: #455a64;
+}
+
+.error {
+    color: #f00;
+}
+
+.normalInput {
+    border-bottom: 1px solid #b4c3cb;
+}
+
+.errorInput {
+    border-bottom: 1px solid #f00;
+}

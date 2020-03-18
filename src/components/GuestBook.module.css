@@ -1,0 +1,36 @@
+.container {
+    background-color: #efefef;
+    margin: 0px 5px 5px 5px;
+    padding: 10px;
+}
+.content {
+    background-color: #fff;
+    padding: 20px 20px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 4px rgba(80, 80, 80, 0.15);
+}
+
+.author {
+    margin-bottom: 15px;
+}
+
+.author::before {
+    content: 'from ';
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 0.8em;
+    color: #96acb6;
+}
+
+.title {
+    margin-bottom: 5px;
+    padding-top: 5px;
+    font-size: 1.1em;
+}
+
+.message {
+    background-color: transparent;
+    padding-bottom: 5px;
+}
