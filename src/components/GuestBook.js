@@ -1,29 +1,31 @@
 import React, { useEffect } from 'react';
 import { connect }  from 'react-redux';
 import styles from './GuestBook.module.css';
+import Message from './Message';
 
-function GuestBook(props) {
+export function GuestBook(props) {
 
+  
   useEffect(() => {
-    window.scrollTo(0,document.body.scrollHeight);
+    if(window && window.hasOwnProperty("scrollTo")) window.scrollTo(0,document.body.scrollHeight);
   })
+  
+
+  const messages = (props.messages)?props.messages:[];
 
   return (
     <div className={styles.container}>
       {
-        props.messages.map((data, index) => {
+        messages.map((data, index) => {
           return (
-            <div key={index} className={styles.content}>
-              <div className={styles.author}>{ data.author }</div>
-              <h4 className={styles.title}>{ data.title }</h4>
-              <div className={styles.message}>
-                <p>
-                {
-                  data.text
-                }
-                </p>
-              </div>
-            </div>
+            <Message key={index}
+              author={data.author}
+              title={data.title}
+            >
+              {
+                data.text
+              }
+            </Message>
           )
         })
       }        

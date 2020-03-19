@@ -14,6 +14,8 @@ class MessageInput extends React.Component {
             name: props.param.name,
             title: props.param.title,
             message: props.param.message,
+            errorName: false,
+            errorMessage: false
         }
 
         this.handleChangeName = this.handleChangeName.bind(this)

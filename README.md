@@ -9,8 +9,8 @@ After several months of studying React,
 I decided to finally face the elephant in the room.<br>
 Or was it an 800 pound gorilla?
 
-So, this is my first attempt to learn testing in React using [Jest](https://jestjs.io/en/).<br>
-I have been using [NextJS](https://nextjs.org/) in my recent exercises but went back to create-react-app since Jest is already pre-installed there. I want to dive immediately in learning testing in Jest rather than trying to figure out if my config is working or not.
+So, this is my first attempt to learn testing in React using [Jest](https://jestjs.io/en/) and [Enzyme](https://enzymejs.github.io/enzyme/).<br>
+I have been using [NextJS](https://nextjs.org/) in my recent projects but went back to create-react-app since Jest is already pre-installed there. I want to dive immediately in learning testing in Jest rather than trying to figure out if my config is working or not.
 
 I made a simple guestbook application with components that are used more than once to make things more challenging. With testing in mind, I feel like this is the most React application that I have ever made, with all the user interactions that I previously just use CSS pseudo-classes are now driven by states.
 
@@ -50,7 +50,7 @@ npm test
 ```
 
 ## Todo
-> Use [Enzyme](https://www.npmjs.com/package/enzyme)
+> Improve testing in redux.
 
 
 

@@ -8,6 +8,35 @@ import { initGuestBook, addNewMessage } from '../redux/reducers';
 import dummy from '../data/data.json';
 import './App.css';
 
+class Clock extends React.Component {
+  constructor() {
+    super()
+    this.timer = null;
+    this.state = {
+      time: new Date()
+    }
+  }
+  componentDidMount() {
+    this.timer = setInterval(() => {
+      this.setState({
+        time: new Date()
+      })
+    }, 1000)
+  }
+  componentWillUnmount() {
+    clearInterval(this.timer)
+  }
+  render() {
+    return (
+      <span style={{
+        fontSize: '0.7em',
+        fontWeight: '400',
+        color: '#dedede',
+      }}>{ this.state.time.toLocaleTimeString()}</span>
+    )
+  }
+}
+
 class App extends React.Component {
   
   constructor() {
@@ -46,7 +75,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="app">
-        <Header>My GuestBook</Header>    
+        <Header><Clock /> My GuestBook</Header>    
         <GuestBook />
         <AddButton onClick={this.handleAdd} />
         <MessageInput 
